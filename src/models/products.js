@@ -4,7 +4,6 @@ const productSchema = new mongoose.Schema({
   name: String,
   price: Number,
   category: String,
-  description: String,
 
   ecoScore: Number, // calculated
   carbonFootprint: Number,
